@@ -1,0 +1,20 @@
+.affichage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.caseProfile {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.caseProfile {
+    display: grid;
+    text-align: center;
+  grid-template-columns: 120px 30%;
+  align-items: start;
+  justify-content: space-between;
+    padding: 2%;
+}

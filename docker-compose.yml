@@ -1,0 +1,18 @@
+
+
+version: '3.1'
+
+services:
+  db:
+    image: mysql:5.7
+    container_name: jobBoard
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    volumes:
+      - ./ressources/db.sql:/docker-entrypoint-initdb.d/db.sql
+      - ./ressources/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: jobboard
+    ports:
+      - 3306:3306

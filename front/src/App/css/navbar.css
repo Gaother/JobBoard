@@ -1,0 +1,19 @@
+*{
+    font-family: arial-black;
+    font-size: large;
+}
+
+.nav{
+    height: 7vh;
+    background-color: rgb(56, 55, 55);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+nav{
+    margin-bottom: 2%;
+}

@@ -1,0 +1,17 @@
+.formulaire{
+    align-items: center;
+}
+
+.caseFormulaire{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.btnSubmit{
+    float:right;
+}
+
+.register{
+    margin-top: 5vh;
+}
